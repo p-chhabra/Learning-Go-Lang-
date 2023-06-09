@@ -120,10 +120,22 @@ func main() {
 	// slice := make([]int, 5, 10) //slice with length 5 and capacity 10
 	// slice2 := make([]int, 5) //slice with length 5 and capacity 5
 
-	for i, word := range slc {
-		fmt.Println(i, " ",word)
-	}
+	// for i, word := range slc {
+	// 	fmt.Println(i, " ",word)
+	// }
 
 	fmt.Println(slc)
+
+	//MAPS
+	// mp := make(map(string)int)
+	// //nested map
+	// mp1 := make(map[int]map[string]int)
+	// //initilization
+	// mp3 := map[string]int{
+	// 	"a": 2,
+	// 	"b": 3,
+	// 	"c": 4,
+	// }
+	//using struct as keys better than nested maps
 
 }
